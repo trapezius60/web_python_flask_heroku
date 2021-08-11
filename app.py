@@ -7,7 +7,7 @@ import requests
 # from getIP import * #from file getIP.py
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates') )
 
 #run other .py files on this coding page
 # app.register_blueprint(getIP) #ให้ file getIP.py เชื่อมกับไฟล์นี้ ในตอนที่ runserver ได้
